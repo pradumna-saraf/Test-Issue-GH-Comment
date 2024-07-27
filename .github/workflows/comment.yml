@@ -16,7 +16,7 @@ on:
 jobs:
   welcome:
     name: Welcome Step
-    if: github.actor != 'pradumna-saraf'
+    if: github.actor == 'pradumna-saraf'
     runs-on: ubuntu-latest
     steps:
     
